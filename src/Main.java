@@ -57,7 +57,7 @@ public class Main {
 	public void update(){
 		control.update();
 		if (Keyboard.isKeyDown(Keyboard.KEY_RETURN))
-			MAX_FPS = 2000;
+			MAX_FPS = 100000;
 		else if (Keyboard.isKeyDown(Keyboard.KEY_SPACE))
 			MAX_FPS = 60;
 		//System.out.println(Mouse.getX() + ", " + (Screen.height - Mouse.getY()));
